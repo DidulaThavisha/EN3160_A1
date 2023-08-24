@@ -32,7 +32,7 @@ class MyDataSet(Dataset):
             mode = 'self_supervised_list_folder.txt'
         else:
             mode+= '_folder_' +str(folder_num)+'.txt'
-        #mode = os.path.join(pre,mode)
+        mode = os.path.join(pre,mode)
         fileNames=[]
         with open(mode,'r') as file:
             lines = file.readlines()
