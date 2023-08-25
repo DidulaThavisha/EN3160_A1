@@ -157,7 +157,7 @@ def generate_folder(folder_num = 10,whole_file=r"./data_folder/supervised_folder
 
 if __name__ == '__main__':
     generate_datatxt()
-    # split_ssl_and_sl()
+    split_ssl_and_sl()
     # generate_folder()
     pass
 
