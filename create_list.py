@@ -13,7 +13,7 @@ def generate_datatxt(data_dir = r"./dataset/"):
             if file:
                 png_files.append(os.path.join(root,file))
         break
-    with open(r"./data_folder/data.txt",'w') as f:
+    with open(r"/kaggle/input/mia-ctl/mia-ctl-main/mia-ctl-main/data_folder/data.txt",'w') as f:
         for file in png_files:
             # modify the following code if neccesary
             # Our origin dataset file format are like:
