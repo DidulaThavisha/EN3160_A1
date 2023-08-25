@@ -22,7 +22,7 @@ def generate_datatxt(data_dir = r"./dataset/"):
             name = file.split('_')[3]
             f.write(file+'\t'+label+'\t'+name+'\n')
 
-def split_ssl_and_sl(ssl_rate = 0.2,whole_file=r"./data_folder/data.txt"):
+def split_ssl_and_sl(ssl_rate = 0.2,whole_file=r"/kaggle/working/mia-ctl/data_folder/data.txt"):
 
     '''
     Divide the whole datasets into self-supervised sub-dataset and supervised sub-dataset.
